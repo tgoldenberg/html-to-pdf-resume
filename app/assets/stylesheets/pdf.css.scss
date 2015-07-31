@@ -2,13 +2,24 @@ h1 {
   color: red;
   font-size: 60px;
 }
+.title-holder {
+  letter-spacing: .1em;
+}
 .title {
   font-weight: bold;
-  line-height: 1.2;
+  margin-right: 25%;
+  line-height: 1.4;
+  font-size: 24px;
+  text-align: center;
+}
+.title-contact-info {
+  margin-top: 5px;
+  line-height: .8;
 }
 .container {
   text-align: center;
 }
+
 .col-xs-8, .col-xs-4, .footer  {
   text-align: left;
 }

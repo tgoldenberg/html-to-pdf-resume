@@ -1,10 +1,30 @@
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
-
 h1 {
   color: red;
   font-size: 60px;
 }
 .container {
   text-align: center;
+}
+.col-xs-8, .col-xs-4, .footer  {
+  text-align: left;
+}
+.glyphicon {
+  font-size: 20px;
+  color: black;
+}
+.col-xs-4 {
+  height: 750px;
+  background: #f7f7f7;
+}
+.summary {
+  height: 140px;
+}
+.projects {
+  height: 250px;
+}
+.experience {
+  height: 240px;
+}
+.flex-container {
+  display: flex;
 }

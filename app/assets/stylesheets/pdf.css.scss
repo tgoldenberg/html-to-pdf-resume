@@ -5,6 +5,10 @@ h1 {
 h1, h2, h3, h4, h5, p, a, span {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
 }
+hr, .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .title-holder {
   letter-spacing: 1px;
 }
@@ -14,14 +18,15 @@ h1, h2, h3, h4, h5, p, a, span {
   margin-bottom: 5px;
 }
 #github {
-  width: 33px;
-  height: 33px;
-  margin-bottom: 5px;
+  width: 29px;
+  height: 29px;
+  margin-bottom: 6px;
 }
 #envelope {
   font-size: 25px;
   position: absolute;
   top: 43px;
+  border-radius: 3px;
 }
 .title {
   font-weight: bold;
@@ -30,8 +35,12 @@ h1, h2, h3, h4, h5, p, a, span {
   font-size: 24px;
   text-align: center;
 }
+.top-content-line {
+  margin-top: -3px;
+}
 .title-contact-info {
   margin-top: 5px;
+  margin-bottom: 0;
   line-height: .8;
 }
 .container {
@@ -46,14 +55,20 @@ h1, h2, h3, h4, h5, p, a, span {
   color: black;
 }
 .col-xs-4 {
-  height: 750px;
+  height: 730px;
   background: #f7f7f7;
+  border-radius: 3px;
+  margin-top: 0;
 }
 .summary {
-  height: 140px;
+  .flex-grow {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
-.projects {
-  height: 250px;
+.interests {
+  margin-left: -18px;
+  margin-top: 7px;
 }
 .experience {
   height: 240px;

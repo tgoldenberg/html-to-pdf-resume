@@ -13,3 +13,6 @@ In the current version a user can create a new `Rails` project, design the resum
 
 ## Sample screenshot 
 ![screenshot](https://raw.githubusercontent.com/tgoldenberg/html-to-pdf-resume/master/resume.png)
+
+## How to contribute 
+Please feel free to contribute by forking the project and submitting a pull request, or using the code here as a help for another project. All suggestions welcome!

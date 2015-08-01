@@ -8,8 +8,8 @@ As programmers, we should have all the tools of the trade at our disposal when c
   - `gem bootstrap-sass`
 
 **** 
-** Current Status 
+## Current Status 
 In the current version a user can create a new `Rails` project, design the resume, and see the changes by looking at the url `localhost:3000/pages/home.pdf`. A future version would have the user design the site in a browser-markdown reader (similar to `Github`) and see the changes immediately. There would then be a button to render the seen image to PDF. 
 
-** Sample screenshot 
+## Sample screenshot 
 ![screenshot](https://raw.githubusercontent.com/tgoldenberg/html-to-pdf-resume/master/resume.png)

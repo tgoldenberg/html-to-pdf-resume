@@ -60,21 +60,43 @@ hr, .container {
   border-radius: 3px;
   margin-top: 0;
 }
+.container.content-holder {
+  padding-right: 2px;
+}
 .summary {
+  margin-top: -20px;
   .flex-grow {
     margin-top: 0;
     margin-bottom: 0;
   }
 }
+.website-links {
+  font-size: 12px;
+  font-weight: 300;
+}
+.project-subtitle {
+  margin: 0;
+  margin-top: -7px;
+}
 .interests {
   margin-left: -18px;
   margin-top: 7px;
 }
-.experience {
-  height: 240px;
+.bullets {
+  margin-left: -18px;
 }
+
 .flex-container {
   display: flex;
+}
+.skill-section {
+  margin-top: -10px;
+  .flex {
+    margin-top: -8px;
+  }
+}
+.footer {
+  margin-top: -18px;
 }
 .header-images {
   font-size: 15px;

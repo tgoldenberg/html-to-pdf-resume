@@ -1,0 +1,22 @@
+To XXX,
+
+My name is Tom Goldenberg and I am very interested in your JavaScript developer opportunity. I am currently seeking a position where I can blend my education, work experience, and passion. My personal career goal is to create software and web applications that enrich the lives of others and connect people together.
+
+Some of the skills I bring to the table are:
+•	Excellent at object oriented design
+•	Ability to write tests and follow principles of TDD / BDD
+•	Experience with modern JavaScript frameworks - i.e. ReactJS, MeteorJS, AngularJS
+•	Ability to write clean, readable, and testable code
+•	Experience with relational (SQL, Postgres) and non-relational (MongoDB) databases
+•	Leadership and professionalism
+•	Strong meta-cognitive learning skills
+•	Highly communicative and a team player
+
+I bring a unique blend of work experience that includes a Bachelors in Cultural Studies, 4 years as a University Sanskrit instructor, and extensive training in web development. This experience will benefit your team because I not only have the educational and technical foundation to successfully perform within this role but also the ability to lead and work dynamically in teams. My linguistic passion is not limited to spoken languages, but applies to programming languages as well. Although I began programming in C, Ruby was my first love for coding, and now I am passionate about the world of JavaScript development.
+
+Since December of 2014, when I decided that coding was the perfect career for me, I have been involved in many exciting projects. I enrolled in Dev Bootcamp, an immersive coding boot camp that focuses on web development with Ruby and JavaScript. As my team's final project, we designed an online language exchange utilizing webRTC video conferencing. I also collaborated with a Fordham University business student to make SoTracks, an event management tool built on Ruby on Rails and ReactJS. Finally, I created the app ChessMentor, a Rails app that connects chess masters to students through peer-to-peer chess games, video conferencing, and Stripe payments.
+
+I am the perfect fit for the JavaScript developer opportunity not only because I have the experience, but I understand the value ABC Company is adding to its clients and the tech community overall.  Please feel free to reach me at thomasagoldenberg@gmail.com or (203) 507-1105 for further questions. I look forward to connecting further with you.
+
+Sincerely,
+Tom Goldenberg

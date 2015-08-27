@@ -8,6 +8,9 @@ As programmers, we should have all the tools of the trade at our disposal when c
   - `gem bootstrap-sass`
 
 **** 
+# Important: 
+Be sure to check where the gem `wkhtmlpdf` is located locally. Just type in the command line `which wkhtmltopdf`. Then make sure the path in the `pages_controller.rb` is the same. 
+
 ## Current Status 
 In the current version a user can create a new `Rails` project, design the resume, and see the changes by looking at the url `localhost:3000/pages/home.pdf`. A future version would have the user design the site in a browser-markdown reader (similar to `Github`) and see the changes immediately. There would then be a button to render the seen image to PDF. 
 

@@ -3,20 +3,25 @@ h1 {
   color: red;
   font-size: 60px;
 }
+
 .signature {
   color: black;
   margin-left: -10px;
 	/* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAAA0CAAAAADJOHn1AAAAAnRSTlMA/bWfQ5kAAASoSURBVGje7Zh/RGt9HMc/5zmOY45jemZmkkmSTCaTTJJHJtOTZE96kv2RpCe5ck0mmf7I/siV6bmSyZXkypVMT5Ir2ZNcuZIkuZIkmUwymZmZN/ePrXPW3Z6ebXZd9zjfv77ns8/3fc5r5/v5cb4ExQ5S0VQ0FU1FU9FUNBVNRVM2WmIurlC01G9iWKFos+yuND9riP4gtJ29jcCbybFOi4HnxJ5S9l6gVdMcfGa6E8blCzt/UYTaiZ1ZLBcaS0QV5lpq93g8nkDxUp9M1O1rpP5Ulm1c+yDNv9B4EWqnettCtFxoN1fXccBNX0pTCvK6LSDl0mW9mqjglS9mmOvC1eKV5li5Y81kKU3oSDDmbrdFPiInFKOzCLlp7qzcaeSYvCXpxOuE01yreVCeb9Jh4XIRwYtyo03RUUk6o7SUazygz/JFX10Rch5drOxo5pqSZB41LXmsIw1Zr1WYLkLPMFH2unZF0yXJLNN+nmKg9csX21RE8Oxnv+4yofnpvCSZjuY8xjVDIqsMFLMdxiuLfoJkyB94fAnNnhUQR2/uCk4i3Fpmdj8flVY6pDoWvUxaiylqptEXd792/VtTzKcnor4X0OK8W5pPkm4L+4Km5xS4nWzQLAGhfqMwk+9mh3SbuWsjnWZWdkbYg8xetDLEMxtyBXT1P8tVq6OemQcAOJqZOQGAU1pJBZq4qu0c17Q/EVNhmc2yrOu5ng/Rza0X0LZpXY6ewUdgk/4S9Y9TPNNqqbjtJL7FwD61CLHxj/LD0n06ZzdRg7Tyb336RzdZ1nZccvT4meEq47O6wYq8DanlGiLSPALwUbCerGP2yhxX+yIQNpjfu7uISz5ZL/9gR8L/F2turdTb2CwA4GMSDqpgBm/xirRaXxR7lG4pjl5Xv8vqsdI5ImgkWpdWOlwAgAkaTl4hRDdPmUroP+MHsvZ9rf4G68xKNbWsRqdoG0ArsQ0HwA5p87hGGzRnwInctQVFmgdiCybjwwtobZ1S7yDUA9gSuhIaqjsE4KCBCIBravO4R521Jm8k+9OlygmE7FRBFmnl78IxANww/aF22jqmSwDAg1f7q2VvWfrHd7sZ2yXwlqjjE4AgnSP5zy/UnwDgbK7OcX1YMmlDAHbpBAAQXmw2z5JrzC4I+owpL1qclWO9iewjZmqMnLOuewBY2sx0QFpNVcf0t43FB6ozMO0bq7QgrfyXIgDu/CQQ60ZctK+sBrwdnG5hR6A65yvPhHt0uM9I1nUAsHPpUAxRU6fooBHgtbOX/5zrKlLTBQBcsYZX/smheqZ9GxgV+HpPuJtN/DfavSiHz7GNuLalZMFt/9y7C2CAiUgr92lwzG5gh/6smrgCELIxxBicawkgPG0TiYgRzb1zmWK3EXpKEYPey9gCgHnRepjH9e3m0za08lxN7+Kt/Aj6+u/4KZrS2bIKtoMzOuaymv1nBwmxeMH/WoGulzT8HdFi+rkfd8rzntaUeqLVxT0oFC3MdSn1HHKKdhSKdi82QqFoQ/RRoWir5IIi0VI+pjupRLTYiplGUlAemq+RZxqDBZ1D/mwjubYXL+xES0FDRVPRVDQVTUVT0VS0n2J8BVAirzQEFl8YAAAAAElFTkSuQmCC); */
 }
-h1, h2, h3, h4, h5, p, a, span {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
+h1, h2, h3, h4, h5, p, a, li {
+  font-family: "georgia" !important;
 }
 hr, .container {
   margin-top: 0;
   margin-bottom: 0;
 }
 .title-holder {
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .years-worked-first {
   font-size: 12px;
@@ -36,6 +41,7 @@ hr, .container {
 }
 #bottom-hr {
   margin-top: .5px;
+  width: 92%;
 }
 #linked-in {
   width: 40px;
@@ -55,13 +61,12 @@ hr, .container {
 }
 .title {
   font-weight: bold;
-  margin-right: 30%;
   line-height: 1.4;
   font-size: 24px;
   text-align: center;
 }
 .top-content-line {
-  margin-top: -3px;
+  margin-top: -1.5px;
 }
 .title-contact-info {
   margin-top: 5px;
@@ -72,7 +77,7 @@ hr, .container {
   text-align: center;
 }
 
-.col-xs-8, .col-xs-4, .footer  {
+.col-xs-12, .col-xs-4, .footer  {
   text-align: left;
 }
 .glyphicon {
@@ -109,15 +114,17 @@ hr, .container {
 }
 .bullets {
   margin-left: -18px;
+  width: 85%;
+}
+.glyphicon {
+  color: #333;
 }
 
 .flex-container {
   display: flex;
 }
 .skill-section {
-  margin-top: -10px;
   .flex {
-    margin-top: -8px;
   }
 }
 .footer {

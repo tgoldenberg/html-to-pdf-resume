@@ -10,6 +10,7 @@ gem 'wkhtmltopdf-binary'
 # gem 'wkhtmltopdf-binary-edge', '~> 0.12.2.1'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+gem 'material_icons'
 gem 'bootstrap-sass'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
